@@ -187,4 +187,13 @@ public interface MemoryWS {
     @Action(input = "http://memory.me.org/MemoryWS/viewInviteSenderRequest", output = "http://memory.me.org/MemoryWS/viewInviteSenderResponse")
     public String viewInviteSender();
 
+    /**
+     * 
+     */
+    @WebMethod
+    @Oneway
+    @RequestWrapper(localName = "acceptInvite", targetNamespace = "http://memory.me.org/", className = "org.me.memory.AcceptInvite")
+    @Action(input = "http://memory.me.org/MemoryWS/acceptInvite")
+    public void acceptInvite();
+
 }

@@ -26,6 +26,17 @@
     %>
     
  </h1>
-        
+            <%-- start web service invocation --%><hr/>
+    <%
+    try {
+	org.me.memory.MemoryWS_Service service = new org.me.memory.MemoryWS_Service();
+	org.me.memory.MemoryWS port = service.getMemoryWSPort();
+	port.acceptInvite();
+    } catch (Exception ex) {
+	// TODO handle custom exceptions here
+    }
+    %>
+    <%-- end web service invocation --%><hr/>
+
     </body>
 </html>

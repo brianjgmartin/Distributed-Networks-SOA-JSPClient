@@ -39,6 +39,7 @@ public class ObjectFactory {
     private final static QName _Delete_QNAME = new QName("http://memory.me.org/", "delete");
     private final static QName _Login_QNAME = new QName("http://memory.me.org/", "login");
     private final static QName _GetUser_QNAME = new QName("http://memory.me.org/", "getUser");
+    private final static QName _AcceptInvite_QNAME = new QName("http://memory.me.org/", "acceptInvite");
     private final static QName _ViewMemoriesResponse_QNAME = new QName("http://memory.me.org/", "viewMemoriesResponse");
     private final static QName _Test_QNAME = new QName("http://memory.me.org/", "test");
     private final static QName _ViewInvites_QNAME = new QName("http://memory.me.org/", "viewInvites");
@@ -91,6 +92,14 @@ public class ObjectFactory {
      */
     public ViewInvites createViewInvites() {
         return new ViewInvites();
+    }
+
+    /**
+     * Create an instance of {@link AcceptInvite }
+     * 
+     */
+    public AcceptInvite createAcceptInvite() {
+        return new AcceptInvite();
     }
 
     /**
@@ -354,6 +363,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://memory.me.org/", name = "getUser")
     public JAXBElement<GetUser> createGetUser(GetUser value) {
         return new JAXBElement<GetUser>(_GetUser_QNAME, GetUser.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AcceptInvite }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://memory.me.org/", name = "acceptInvite")
+    public JAXBElement<AcceptInvite> createAcceptInvite(AcceptInvite value) {
+        return new JAXBElement<AcceptInvite>(_AcceptInvite_QNAME, AcceptInvite.class, null, value);
     }
 
     /**
