@@ -4,10 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Brian%20Martin/Documents/NetBeansProjects/MemoryAppJSPClient/web/welcome.jsp</file>
-            <file>file:/C:/Users/Brian%20Martin/Documents/NetBeansProjects/MemoryAppJSPClient/web/error.jsp</file>
             <file>file:/C:/Users/Brian%20Martin/Documents/NetBeansProjects/MemoryAppJSPClient/web/index.jsp</file>
             <file>file:/C:/Users/Brian%20Martin/Documents/NetBeansProjects/MemoryAppJSPClient/web/register.jsp</file>
             <file>file:/C:/Users/Brian%20Martin/Documents/NetBeansProjects/MemoryAppJSPClient/web/login.jsp</file>
+            <file>file:/C:/Users/Brian%20Martin/Documents/NetBeansProjects/MemoryAppJSPClient/web/invite.jsp</file>
         </group>
     </open-files>
 </project-private>
