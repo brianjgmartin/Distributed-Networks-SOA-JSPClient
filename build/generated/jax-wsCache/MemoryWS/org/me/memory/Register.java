@@ -1,16 +1,17 @@
-
 package org.me.memory;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for register complex type.
- * 
- * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p>
+ * Java class for register complex type.
+ *
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
+ *
  * <pre>
  * &lt;complexType name="register">
  *   &lt;complexContent>
@@ -23,8 +24,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "register", propOrder = {
@@ -38,11 +39,9 @@ public class Register {
 
     /**
      * Gets the value of the username property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
+     *
      */
     public String getUsername() {
         return username;
@@ -50,11 +49,9 @@ public class Register {
 
     /**
      * Sets the value of the username property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
+     *
      */
     public void setUsername(String value) {
         this.username = value;
@@ -62,11 +59,9 @@ public class Register {
 
     /**
      * Gets the value of the password property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
+     *
      */
     public String getPassword() {
         return password;
@@ -74,11 +69,9 @@ public class Register {
 
     /**
      * Sets the value of the password property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
+     *
      */
     public void setPassword(String value) {
         this.password = value;

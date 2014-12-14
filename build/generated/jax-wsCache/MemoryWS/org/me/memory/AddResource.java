@@ -1,16 +1,17 @@
-
 package org.me.memory;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for addResource complex type.
- * 
- * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ * <p>
+ * Java class for addResource complex type.
+ *
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
+ *
  * <pre>
  * &lt;complexType name="addResource">
  *   &lt;complexContent>
@@ -23,8 +24,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "addResource", propOrder = {
@@ -38,11 +39,9 @@ public class AddResource {
 
     /**
      * Gets the value of the memory property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
+     *
      */
     public String getMemory() {
         return memory;
@@ -50,11 +49,9 @@ public class AddResource {
 
     /**
      * Sets the value of the memory property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
+     *
      */
     public void setMemory(String value) {
         this.memory = value;
@@ -62,11 +59,9 @@ public class AddResource {
 
     /**
      * Gets the value of the resource property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
+     *
      */
     public String getResource() {
         return resource;
@@ -74,11 +69,9 @@ public class AddResource {
 
     /**
      * Sets the value of the resource property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
+     *
      */
     public void setResource(String value) {
         this.resource = value;
